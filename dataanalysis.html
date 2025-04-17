@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Story of World Happiness</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #3498db;
+            font-size: 1.8em;
+            margin-top: 35px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e8f4fc;
+        }
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        .case-box {
+            background-color: #e8f4fc;
+            padding: 25px;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+        .case-box h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .side-by-side {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 25px 0;
+            gap: 20px;
+        }
+        .image-side {
+            flex: 1;
+            min-width: 300px;
+        }
+        .text-side {
+            flex: 1;
+            min-width: 300px;
+        }
+        .image-container {
+            margin: 25px 0;
+            text-align: center;
+        }
+        .image-container img, .side-by-side img {
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+            object-fit: contain;
+        }
+        .image-container.small img {
+            max-width: 70%;
+            max-height: 400px;
+        }
+        .image-container.trend img {
+            max-width: 90%;
+            max-height: 450px;
+        }
+        .caption {
+            font-style: italic;
+            margin-top: 10px;
+            text-align: center;
+            color: #555;
+        }
+        .highlight {
+            background-color: #f9f9f9;
+            border-left: 3px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .conclusion {
+            background-color: #e8f4fc;
+            padding: 20px;
+            margin-top: 40px;
+            border-radius: 5px;
+        }
+        .note-box {
+            background-color: #fff8e1;
+            border-left: 3px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            font-size: 0.95em;
+        }
+        .contact {
+            background-color: #e9f7ef;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .contact h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .contact a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        /* Media query for smaller screens */
+        @media (max-width: 768px) {
+            .side-by-side {
+                flex-direction: column;
+            }
+            .image-side, .text-side {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Understanding World Happiness: What Makes Countries Happy?</h1>
+    
+    <p>What truly makes people happy around the world? Is it money in their pockets, their health, strong family ties, or something completely different? I wanted to understand the factors behind global happiness, so I analyzed data from the World Happiness Report spanning 155 countries from 2015 to 2019.</p>
+    
+    <p>The data tells a fascinating story about what drives happiness across different cultures and regions. Let me walk you through what I discovered.</p>
+    
+    <div class="case-box">
+        <h3>CASE - Understanding World Happiness</h3>
+        <p>I analyzed the World Happiness Report data covering 155 countries over five years (2015-2019) to identify which factors have the strongest influence on national happiness. The goal was to understand what truly drives well-being at a country level and how these factors interact. This analysis could help guide policy decisions and social initiatives aimed at improving quality of life.</p>
+    </div>
+    
+    <h2>How happy are countries around the world?</h2>
+    
+    <div class="side-by-side">
+        <div class="text-side">
+            <p>First, I looked at the happiness landscape across countries. Most nations score between 4 and 7 on the 10-point happiness scale. Only a handful experience extreme happiness (8+) or unhappiness (below 3).</p>
+            <p>This tells us that most countries maintain moderate happiness levels, with some notable exceptions at both ends of the spectrum. The distribution forms a relatively normal curve, suggesting that extreme happiness or unhappiness are statistical outliers.</p>
+        </div>
+        <div class="image-side">
+            <div class="image-container small">
+                <img src="images/Happiness_score_distribution.png" alt="Happiness Score Distribution">
+                <p class="caption">Most countries have moderate happiness scores</p>
+            </div>
+        </div>
+    </div>
+    
+    <h2>Does money buy happiness?</h2>
+    
+    <div class="side-by-side">
+        <div class="image-side">
+            <img src="images/GDP_vs_Happiness.png" alt="GDP per Capita vs Happiness Score">
+            <p class="caption">GDP per Capita vs Happiness Score</p>
+        </div>
+        <div class="text-side">
+            <p>When looking at GDP per capita versus happiness scores, I found a strong positive relationship. Simply put, richer countries tend to be happier countries.</p>
+            <p>What's interesting is that the relationship isn't perfect - some wealthy nations report lower happiness than expected, while some less wealthy countries perform better than their economic status would suggest.</p>
+            <div class="highlight">
+                <p>The data shows economic prosperity creates a foundation for happiness, but doesn't guarantee it on its own.</p>
+            </div>
+        </div>
+    </div>
+    
+    <h2>Living longer, living happier</h2>
+    
+    <div class="side-by-side">
+        <div class="text-side">
+            <p>Health emerged as another strong predictor of happiness. Countries where people live longer tend to report higher happiness levels.</p>
+            <p>This makes intuitive sense - societies that support better healthcare and longer lives typically provide better overall quality of life.</p>
+        </div>
+        <div class="image-side">
+            <img src="/images/Health_vs_Happiness.png" alt="Life Expectancy vs Happiness Score">
+            <p class="caption">Health and happiness go hand in hand</p>
+        </div>
+    </div>
+    
+    <h2>The power of relationships</h2>
+    
+    <div class="side-by-side">
+        <div class="image-side">
+            <img src="/images/family_vs_happiness.png" alt="Family vs Happiness Score">
+            <p class="caption">Family support vs happiness</p>
+        </div>
+        <div class="text-side">
+            <p>Family connections and social support also showed a strong positive correlation with happiness across regions.</p>
+            <p>Countries where people feel supported by family and friends consistently scored higher on the happiness scale.</p>
+        </div>
+    </div>
+    
+    <h2>Freedom to choose</h2>
+    
+    <div class="side-by-side">
+        <div class="text-side">
+            <p>The analysis revealed that personal freedom also plays an important role in happiness. Countries where citizens feel greater freedom to make life choices tend to be happier places.</p>
+            <p>However, the relationship varies more across cultures than factors like GDP or health.</p>
+        </div>
+        <div class="image-side">
+            <img src="/images/freedom_vs_happiness.png" alt="Freedom vs Happiness Score">
+            <p class="caption">Freedom contributes to happiness, with varying impact by country</p>
+        </div>
+    </div>
+    
+    <h2>Trust in government</h2>
+    
+    <div class="side-by-side">
+        <div class="image-side">
+            <img src="/images/trust_vs_happiness.png" alt="Trust in Government vs Happiness Score">
+            <p class="caption">Trust in government vs happiness</p>
+        </div>
+        <div class="text-side">
+            <p>Government corruption (or its absence) shows a moderate relationship with happiness. The happiest nations typically have lower perceived corruption, though many countries maintain moderate happiness despite governance challenges.</p>
+            <p>This suggests people can adapt to certain institutional limitations, though good governance certainly helps.</p>
+        </div>
+    </div>
+    
+    <h2>Does generosity matter?</h2>
+    
+    <div class="side-by-side">
+        <div class="text-side">
+            <p>Interestingly, generosity showed the weakest correlation with national happiness.</p>
+            <p>Most countries show moderate generosity levels, with a few standouts, but this doesn't translate directly to happiness the way economic and health factors do.</p>
+        </div>
+        <div class="image-side">
+            <img src="/images/generosity_vs_happiness.png" alt="Generosity vs Happiness Score">
+            <p class="caption">Generosity has a weaker correlation with happiness</p>
+        </div>
+    </div>
+    
+    <h2>A tale of two happy countries: Finland vs. Canada</h2>
+    
+    <p>For a deeper understanding, I compared Finland and Canada between 2015 and 2019. Finland started with happiness comparable to Canada but steadily climbed to become the world's happiest country by 2019. Meanwhile, Canada experienced a slight decline despite similar patterns in GDP and life expectancy.</p>
+    
+    <div class="image-container">
+        <img src="/images/finland_vs_canada.png" alt="Finland vs Canada Happiness Comparison">
+        <p class="caption">Finland's happiness increased while Canada's slightly declined, despite similar economic patterns.</p>
+    </div>
+    
+    <p>What made the difference? While both countries maintained solid scores across key factors, Finland showed particular stability in social support and trust in government, suggesting these factors may have been crucial to Finland's happiness trajectory.</p>
+    
+    <h2>Happiness around the world</h2>
+    
+    <div class="side-by-side">
+        <div class="image-side">
+            <img src="/images/Regional_analysis.png" alt="Regional Happiness Distribution">
+            <p class="caption">Regional happiness distribution</p>
+        </div>
+        <div class="text-side">
+            <p>Looking at regional patterns, I found that the Americas and Oceania have more consistent happiness levels across their countries – less disparity between the happiest and least happy nations.</p>
+            <p>Europe and Asia display greater variations, while African nations generally report lower happiness levels with some exceptions.</p>
+            <div class="highlight">
+                <p>Your geographical location matters for happiness, but local factors still create significant differences within the same region.</p>
+            </div>
+        </div>
+    </div>
+    
+    <h2>Happiness over time</h2>
+    
+    <p>When tracking happiness between 2015-2019, I discovered that happiness isn't static. Some nations maintained stable levels, while others showed notable increases or decreases. This dynamic nature of happiness underscores how societal well-being responds to changing conditions – economic developments, policy changes, and social shifts all play a role.</p>
+    
+    <div class="image-container trend">
+        <img src="/images/Happiness_score_trend.png" alt="Happiness Score Trends (2015-2019)">
+        <p class="caption">The five-year trends show stable, rising, and declining patterns among the world's happiest countries.</p>
+    </div>
+    
+    <div class="conclusion">
+        <h2>What creates happiness?</h2>
+        <p>My journey through the world happiness data reveals that economic prosperity and health form the strongest foundation for national happiness. However, the complete picture includes social connections, personal freedoms, and good governance. Different countries weave these elements together in their unique ways.</p>
+        
+        <p>Perhaps the most important insight is that happiness isn't determined by any single factor. It's created through a complex interplay of conditions that support good lives – material needs, physical health, social bonds, and freedom to make meaningful choices. The good news? There are many paths to improving well-being, and progress in any of these dimensions may contribute to happier societies.</p>
+    </div>
+    
+    <div class="note-box">
+        <p><strong>Note on methodology:</strong> While conducting additional research, I found some important context about the World Happiness Report's methodology. The rankings are primarily based on the Cantril ladder question, which measures life satisfaction rather than emotional happiness. Some researchers and Finnish citizens themselves have pointed out potential cultural biases in how people respond to happiness surveys.</p>
+        
+        <p>For example, in Finland, there's a cultural tendency to respond to questions about life satisfaction in a particular way due to social norms. Additionally, the report doesn't fully capture emotional well-being – when measured specifically on positive emotions (like joy, laughter, etc.), Finland ranks much lower (25th place in the Gallup Global Emotions Report), while countries with lower GDP often score higher on emotional happiness.</p>
+        
+        <p>This nuance reminds us that "happiness" is complex and multidimensional, with different cultures experiencing and expressing it in diverse ways. The World Happiness Report provides valuable insights, but like any measurement tool, it has limitations in capturing the full human experience of happiness.</p>
+    </div>
+    
+    <p><em>This analysis is based on data from the World Happiness Report (2015-2019) measuring happiness across 155 countries through the Gallup World Poll.</em></p>
+    
+    <div class="contact">
+        <h3>Let's Connect!</h3>
+        <p>I am passionate about leveraging data, machine learning, and analytics to drive meaningful insights and impactful solutions. If you're looking for a professional with strong analytical skills and a problem-solving mindset, I’d love to connect.</p>
+        <p>If my work resonates with you and you'd like to discuss potential opportunities in data science, machine learning, or other relevant roles, feel free to reach out!</p>
+        <p>Contact me at: <a href="mailto:shivandi.v@northeastern.edu">shivandi.v@northeastern.edu</a></p>
+    </div>    
+    
+</body>
+</html>
