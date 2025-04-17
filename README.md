@@ -6,7 +6,7 @@ This project analyzes the factors that influence happiness levels around the wor
 ![World Happiness Map](images/World_map.jpeg/800x400.png?text=World+Happiness+Distribution)
 
 ## Live Demo
-View the analysis as an interactive web page: [World Happiness Analysis](https://github.com/Venkatesh188/World-Happiness-Analysis)
+View the analysis as an interactive web page: [World Happiness Analysis](https://github.com/Venkatesh188/World-Happiness-Analysis/World-Happiness-Analysis.html)
 
 ## Key Findings
 
