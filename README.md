@@ -3,7 +3,7 @@
 ## Project Overview
 This project analyzes the factors that influence happiness levels around the world using data from the World Happiness Report (2015-2019). Through a combination of data analysis and visualization, the project explores the relationships between happiness scores and various socioeconomic factors across 155 countries.
 
-![World Happiness Map](images/World_map.jpeg/800x400.png?text=World+Happiness+Distribution)
+![World Happiness Map](images/World_map.jpeg?text=World+Happiness+Distribution)
 
 ## Live Demo
 View the analysis as an interactive web page: [World Happiness Analysis](https://github.com/Venkatesh188/World-Happiness-Analysis/World-Happiness-Analysis.html)
@@ -42,8 +42,8 @@ The analysis followed these steps:
 ## Directory Structure
 ```
 World-Happiness-Analysis/
-├── index.html              # Main analysis page
-├── images/                 # Visualization images
+├── World-Happiness-Analysis.html  # Main analysis page
+├── images/                        # Visualization images
 │   ├── GDP_vs_Happiness.png
 │   ├── Health_vs_Happiness.png
 │   ├── family_vs_happiness.png
@@ -55,8 +55,6 @@ World-Happiness-Analysis/
 │   ├── Happiness_score_distribution.png
 │   └── Happiness_score_trend.png
 ├── README.md               # Project documentation
-└── data/                   # Data files (if included)
-    └── world_happiness_data_2015_2019.csv
 ```
 
 ## Technical Implementation
